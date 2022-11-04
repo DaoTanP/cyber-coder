@@ -476,7 +476,7 @@
 		"settings": {
 		  "foreground": "#ffd400"
 		}
-	  },
+	},
 	{
 		"name": "Markdown titles",
 		"scope": "entity.name.section.markdown",
@@ -594,7 +594,7 @@
 		"settings": {
 		  "foreground": "#e1efff"
 		}
-	  },
+	},
 	{
 		"name": "Markdown pre",
 		"scope": "markup.raw.block.markdown",
@@ -636,17 +636,25 @@
 		"descriptionForeground": "#ffd400",
 		"focusBorder": "#ffd400",
 
+		// Menu
+		"menu.background":"#002212ec",
+		"menu.foreground":"#ffd400",
+		"menu.border":"#ffd400",
+		"menu.separatorBackground":"#ffd400",
+		"menu.selectionBackground":"#ffd400",
+		"menu.selectionForeground":"#002212",
+
 		// Buttons
 		"button.background":"#ffd400",
-		"button.foreground":"#000000",
+		"button.foreground":"#002212",
 		// "button.hoverBackground": "#ee0077",
-		"button.hoverBackground": "#9e0a52",
+		"button.hoverBackground": "#ee0077",
 
 		// Progress Bar
 		"progressBar.background":"#fa0dea",
 
 		// Editor
-		"editor.background": "#030d22",
+		"editor.background": "#002212",
 		"editor.foreground": "#fdfeff",
 		"editorLineNumber.foreground":"#ee0077",
 		"editorLineNumber.activeForeground": "#ffd400",
@@ -673,9 +681,10 @@
     	"editorHoverWidget.border": "#ffd400",
 
 		// Editor Groups & Tabs
-		"editorGroup.dropBackground": "#03153b",
+		"editorGroup.dropBackground": "#ffd5002b",
 		"editorGroupHeader.noTabsBackground": "#03163f",
 		"editorGroupHeader.tabsBackground": "#030d22",
+		"editorGroupHeader.tabsBorder": "#ffd400",
 		"tab.activeBackground": "#1d1641",
 		"tab.activeForeground": "#f9faff",
 		"tab.inactiveBackground": "#141138",
@@ -731,28 +740,28 @@
 		// Panel Colors
 		"panel.background": "#0e0952",
 		"panel.border": "#ffd400",
-		"panel.dropBackground": "#ff2592",
+		// "panel.dropBackground": "#ff2592",
 		"panelTitle.activeBorder": "#ffd400",
 		"panelTitle.activeForeground": "#ff2592",
 		"panelTitle.inactiveForeground": "#d600dd",
 
 		// NotificationCenter Section
-		"notificationCenter.border": "#00FF9C",
+		"notificationCenter.border": "#ffd400",
 
 		// NotificationCenterHeader Section
 		"notificationCenterHeader.background": "#002212ec",
-		"notificationCenterHeader.foreground": "#00FF9C",
+		"notificationCenterHeader.foreground": "#ffd400",
 
 		// NotificationLink Section
 		"notificationLink.foreground": "#3d5afe",
 
 		// Notifications Section
 		"notifications.background": "#002212e7",
-		"notifications.foreground": "#00FF9C",
+		"notifications.foreground": "#ffd400",
 		"notifications.border": "#3d5afe",
 
 		// NotificationToast Section
-		"notificationToast.border": "#00FF9C",
+		"notificationToast.border": "#ffd400",
 
 		// Peek View
 		"peekView.border": "#ffd400",
@@ -774,7 +783,7 @@
 		"gitDecoration.untrackedResourceForeground":"#0097fc",
 		"gitDecoration.ignoredResourceForeground":"#1183b8",
 		"gitDecoration.conflictingResourceForeground":"#ec0076",
-
+		
 		// Integrated Terminal
 		"terminal.background":"#0d0936",
 		"terminal.foreground":"#e4eeff",
