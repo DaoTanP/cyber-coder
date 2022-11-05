@@ -3,7 +3,7 @@
   "displayName": "Cyber Coder",
   "description": "CyberPunk 2077 inspired color theme for Visual Studio Code",
   "version": "0.0.1",
-  "publisher": "Tan Dao",
+  "publisher": "TanDao",
   "engines": {
     "vscode": "^1.73.0"
   },
